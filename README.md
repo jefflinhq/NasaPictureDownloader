@@ -16,7 +16,7 @@ This repository contains four projects.
 
 ## **How to run DownloadNasaApodFiles**
 
-- After build, the execution file, dll, can be found in bin\Debug\netcoreapp2.1 or bin\Release\netcoreapp2.1 folder depending on the build configuration you chose.
+- After build, the execution file, DownloadNasaApodFiles.dll, can be found in bin\Debug\netcoreapp2.1 or bin\Release\netcoreapp2.1 folder depending on the build configuration you chose.
 - Create a text file named dates.txt in the same folder of the dll file. Include the dates of the pictures you want to download. A sample file is provided in DownloadNasaApodFiles folder.
 - Open Command Prompt and change the directiory to the dll file.
 - Run the following command &quot;dotnet downloadnasaapodfiles.dll&quot;
