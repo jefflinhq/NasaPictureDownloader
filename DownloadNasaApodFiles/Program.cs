@@ -9,10 +9,11 @@ namespace DownloadNasaApodFiles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Start downloading...");
 
             DownloadFiles();
-          
+            Console.WriteLine("Download completed.");
+
         }
 
         static void DownloadFiles()
