@@ -12,7 +12,7 @@ namespace ShowNasaPictures.Controllers
     public class SampleDataController : Controller
     {
         [HttpGet("[action]")]
-        public IEnumerable<NasaApodData> WeatherForecasts()
+        public IEnumerable<NasaApodData> NasaData()
         {
             var nasaapi = new NasaApi.NasaApod();
             var result = new List<NasaApodData>();

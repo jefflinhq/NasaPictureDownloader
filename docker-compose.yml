@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  shownasapictures:
+    image: ${DOCKER_REGISTRY-}shownasapictures
+    build:
+      context: .
+      dockerfile: ShowNasaPictures/Dockerfile
